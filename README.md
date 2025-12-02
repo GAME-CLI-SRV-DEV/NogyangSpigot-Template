@@ -5,7 +5,7 @@ NogyangSpigot Plugin Template, utilizes [Foundation](https://github.com/kangarko
 
 Choose either `Spigot-API` or `Paper-API`, or `NogyangSpigot-API`(You need to build the dependency and publish it to `mavenlocal()`.).\
 Replace `plugin.yml` with `paper-plugin.yml`. Spigot will not detect paper-plugin.yml so it wont load on it by saying plugin.yml is missing. but it will instead load on paper and it's fork.\
-Replace `extends JavaPlugin` with `extends SimplePlugin`. this is foundation usage. since the foundation was compileOnly dependency, it wont work on Paper at all since NogyangSpigot only embeds Foundation. it also means that you also need to rebuild the fork on NogyangSpigot by applying fork patches yourself.
+Replace `extends JavaPlugin` with `extends SimplePlugin`. this is foundation usage. since the foundation was compileOnly dependency, it wont work on Paper at all since NogyangSpigot only embeds Foundation.
 
 # Using NMS
 
